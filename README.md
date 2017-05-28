@@ -40,29 +40,29 @@ A MapReduce based PageRank algorithm implemented in Python. The program runs on 
 
 • It will now prompt a series of messages asking for location of respective files
 
-	• Local: Enter input file path: -> Enter the location of input_pagerank.txt in your local. Eg: /user/Desktop/Bigdataproject2
+	• Local: Enter input file path: -> Enter the location of input_pagerank.txt which is present in your local. Eg: /user/Desktop/Bigdataproject
 	  Do not include ‘/’ in the end
 	  
-	• Local: Enter output file path: -> Enter the location where you want to store your output. Eg: /user/Desktop/Bigdataproject2
+	• Local: Enter output file path: -> Enter the location where you want to store your output. Eg: /user/Desktop/Bigdataproject
 	  Do not include ‘/’ in the end
 	  
-	• Hadoop: Enter input directory path (with directory name): -> Enter the name of the directory in which input file will be stored. Eg: ip_pagerank	
-	  Note: Existing directory with the same name and the files inside it will be removed automatically
-	        Creation of new directory with more than one level is not possible. Eg: bigdataproj2/input – Error will be thrown if the parent directory(bigdataproj2) is not created before driver.py is executed 
+	• Hadoop: Enter input directory path (with directory name): -> Enter the name of the directory in which input file is to be stored. Eg: ip_pagerank	
+	  Note: If the directory is already existing, then the directory along with its files will be removed automatically
+	        Creation of new directory with more than one level is not possible. Eg: bigdataproj/input – Error will be thrown if the parent directory(bigdataproj) is not created before executing driver.py 
 
-	• Hadoop: Enter output directory path (with directory name): -> Enter the name of the directory in which input file will be stored. Eg: op_pagerank
-	  Note: Existing directory with the same name and the files inside it will be removed automatically
-		Creation of new directory with more than one level is not possible. Eg: bigdataproj2/output – Error will be thrown if the parent directory(bigdataproj2) is not created before driver.py is executed 
+	• Hadoop: Enter output directory path (with directory name): -> Enter the name of the directory in which output file is to be stored. Eg: op_pagerank
+	  Note: If the directory is already existing, then the directory along with its files will be removed automatically
+		Creation of new directory with more than one level is not possible. Eg: bigdataproj/output – Error will be thrown if the parent directory(bigdataproj2) is not created before executing driver.py
 
 	• Enter location of python files: Store all the .py file in a common folder. Provide the path here. Eg: /user/Desktop/Pythonfiles
 	  Do not include ‘/’ in the end
 
-	• Enter path of python streamer: To run the python file in Hadoop environment, there is a streaming file available to run it. Locate the file. The name of the .jar file varies with different environment. Hence, mention the file name along with the extension. Eg: /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.6.0-mr1-cdh5.8.0.jar
+	• Enter path of python streamer: To run the python file in Hadoop environment, a streaming file needs to be executed. Locate the file. The name of the .jar file varies with different environment. Hence, mention the file name along with the extension. Eg: /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.6.0-mr1-cdh5.8.0.jar
 
 	• Enter the number of iterations: Fixed number of iterations is chosen as the convergence criteria. Enter an integer to define the convergence criteria. Eg: 10
 	
 • Once we enter these inputs, the MapReduce algorithm executes for the specified number of iterations
 
-• The final output will be stored in the location specified in your local. The name of the file will be Output.txt
+• The final output will be stored in the location specified. The name of the file will be Output.txt
 
 • To view the output in the desired format, use Wordpad (in Windows) to view it. We might not be able to view in the desired format with Notepad
