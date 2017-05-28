@@ -35,3 +35,4 @@ for line in sys.stdin:
     graphstruct += "," + (','.join(map(str, l[2])))+"\n"
     sys.stdout.write(graphstruct)
     mapper(l)
+    
