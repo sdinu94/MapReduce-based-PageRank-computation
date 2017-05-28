@@ -27,3 +27,5 @@ sort_map=sorted(map)
 for line in sort_map:
     op = str(line) + "\t" + str(map[line]) + "\n"
     sys.stdout.write(op)
+
+    
