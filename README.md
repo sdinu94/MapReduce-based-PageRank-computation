@@ -28,5 +28,5 @@ A MapReduce based PageRank algorithm implemented in Python. The program runs on 
 	The output of Reducer_Hadoop is in the following format:
  		Node1<tab>IPR1, Node12, Node12, Node14…
      
-     	This has been converted to the desired format:
+  	This has been converted to the desired format:
  		Node1<tab>PR
