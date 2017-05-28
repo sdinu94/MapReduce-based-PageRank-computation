@@ -3,6 +3,7 @@ A MapReduce based PageRank algorithm implemented in Python. The program runs on 
 
 # Requirements
 • Python 2.7
+
 • Cloudera Quickstart VM
 
 # Implementation
