@@ -36,7 +36,7 @@ A MapReduce based PageRank algorithm implemented in Python. The program runs on 
 
 • Place all the .py files in the same folder
 	
-• In the terminal, execute: python location/driver.py
+• In the terminal, execute: python file_location/driver.py
 
 • It will now prompt a series of messages asking for location of respective files
 
