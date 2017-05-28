@@ -43,3 +43,4 @@ cmd+=r"&& hadoop fs -get "+ hadoop_op_path +"/part\* " + local_op_path + "&& pyt
 cmd+=r"&& rm -rf " + local_op_path + "/part-00000 && rm -rf " + local_ip_path + "/input.txt"
 
 os.system(cmd)
+
