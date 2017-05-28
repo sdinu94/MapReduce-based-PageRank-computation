@@ -44,3 +44,4 @@ for line in list:
     red_op += "," + (','.join(map(str, l[2])))+"\n"
     sys.stdout.write(red_op)
 
+    
