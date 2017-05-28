@@ -25,3 +25,5 @@ for line in input:
     l = parser(line)
     op = str(l[0]) + "\t" + str(initial_pr) + "," + str(l[1]) + "\n"
     sys.stdout.write(op)
+
+    
