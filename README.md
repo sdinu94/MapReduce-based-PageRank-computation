@@ -7,7 +7,7 @@ A MapReduce based PageRank algorithm implemented in Python. The program runs on 
 • Cloudera Quickstart VM
 
 # Implementation
-• Driver.py – This file drives the entire pagerank algorithm. It prompts messages asking for input file location, output file location, directory to be created in Hadoop to store input data, directory to be created in Hadoop to store output, location of python files, python streamer to execute python on Hadoop and number of iterations. Once we specify these, other tasks are invoked in terminal automatically by this driver.
+• *Driver.py* – This file drives the entire pagerank algorithm. It prompts messages asking for input file location, output file location, directory to be created in Hadoop to store input data, directory to be created in Hadoop to store output, location of python files, python streamer to execute python on Hadoop and number of iterations. Once we specify these, other tasks are invoked in terminal automatically by this driver.
 
 • Input_Formatting.py – The given input file is in the following format: 
 		
